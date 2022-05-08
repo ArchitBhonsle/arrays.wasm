@@ -6,9 +6,6 @@ title: Getting Started
 The goal of this project is to provide a **fast, easy-to-use linear algebra
 Javascript library** powered by WebAssembly, written in Rust.
 
-This project is a part of a larger project called [ml.wasm](https://www.github.com/ml.wasm),
-which aims to provide a complete machine learning ecosystem in JavaScript.
-
 ## Quick Start
 
 Here, to demonstrate, we'll be using [vite](https://vitejs.dev/) to scaffold a project:

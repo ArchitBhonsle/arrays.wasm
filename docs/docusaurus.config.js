@@ -3,19 +3,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'ml.wasm > linalg',
+  title: 'arrays.wasm',
   tagline: 'Linear Algebra powered by WebAssembly',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  // favicon: 'img/favicon.ico',
   organizationName: 'wasml',
   projectName: 'linalg',
-  url: 'https://ml-wasm.github.io',
-  baseUrl: '/linalg/',
+  url: 'https://architbhonsle.github.io',
+  baseUrl: '/arrays.wasm/',
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: 'ml.wasm > linalg',
+      title: 'arrays-wasm',
       // logo: {
       //   alt: 'My Site Logo',
       //   src: 'img/logo.svg',
@@ -29,7 +28,7 @@ module.exports = {
         },
         // { to: '/blog', label: 'Blog', position: 'left' }, Work on this later
         {
-          href: 'https://github.com/ml-wasm/linalg',
+          href: 'https://github.com/ArchitBhonsle/arrays.wasm/',
           label: 'GitHub',
           position: 'right',
         },
@@ -47,7 +46,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/ml-wasm/linalg/edit/master/docs/',
+          editUrl: 'https://github.com/ArchitBhonsle/arrays.wasm/edit/master/docs/',
         },
         blog: {
           showReadingTime: true,
