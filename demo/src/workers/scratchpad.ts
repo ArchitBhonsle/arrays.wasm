@@ -1,10 +1,10 @@
-import { FloatsMatrix } from '@ml.wasm/linalg';
+import { FloatsMatrix } from 'arrays-wasm';
 import * as Comlink from 'comlink';
 import { timeit } from '../utils/timeit';
 
 export class ScratchPad {
   async init() {
-    const wasm = await import('@ml.wasm/linalg');
+    const wasm = await import('arrays-wasm');
     const threads = navigator.hardwareConcurrency;
 
     await wasm.default();

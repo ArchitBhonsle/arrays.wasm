@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>📐 ml.wasm/linalg 📏</h1>
+  <h1>📐 arrays.wasm 📏</h1>
 
   <p>
     <strong>Linear Algebra powered by Web Assembly</strong>
@@ -35,7 +35,7 @@ import init, {
   IntegersMatrix,
   FloatsMatrix,
   StringsMatrix,
-} from '@ml.wasm/linalg';
+} from 'arrays-wasm';
 
 (async () => {
   // This init function sets up everything you need to use this library

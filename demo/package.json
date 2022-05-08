@@ -11,8 +11,7 @@
     "vite": "^2.6.4"
   },
   "dependencies": {
-    "buffer": "^6.0.3",
-    "comlink": "^4.3.1",
-    "jpeg-js": "^0.4.3"
+    "arrays-wasm": "file:../pkg",
+    "comlink": "^4.3.1"
   }
 }

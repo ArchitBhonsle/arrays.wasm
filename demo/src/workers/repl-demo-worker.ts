@@ -1,4 +1,4 @@
-import { FloatsMatrix } from '@ml.wasm/linalg';
+import { FloatsMatrix } from 'arrays-wasm';
 import * as Comlink from 'comlink';
 import { Array1d, Array2d, Linalg } from '../utils/types';
 import { dimension, Dimension } from '../utils/dimensions';
@@ -7,7 +7,7 @@ export class ReplDemo {
   wasm!: Linalg;
   arrays: Record<string, FloatsMatrix> = {};
   async init() {
-    const wasm = await import('@ml.wasm/linalg');
+    const wasm = await import('arrays-wasm');
     const threads = navigator.hardwareConcurrency;
 
     await wasm.default();

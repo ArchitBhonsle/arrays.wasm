@@ -1,4 +1,4 @@
-import { FloatsMatrix } from '@ml.wasm/linalg';
+import { FloatsMatrix } from 'arrays-wasm';
 import * as Comlink from 'comlink';
 import { idx } from '../utils/idx';
 import { timeit } from '../utils/timeit';
@@ -6,7 +6,7 @@ import { Array2d } from '../utils/types';
 
 export class MatMul {
   async init() {
-    const wasm = await import('@ml.wasm/linalg');
+    const wasm = await import('arrays-wasm');
     const threads = navigator.hardwareConcurrency;
 
     await wasm.default();
